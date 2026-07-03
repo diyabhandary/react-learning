@@ -6,7 +6,9 @@ import CompFrag from "./fragment/CompFrag"
 import CondRendering from "./conditional-rendering/CondRendering"
 import Newcomp from "./props/Newcomp"
 import House from "./props/House"
-// import Mapcomp from "./props/Mapcomp"
+import Mapcomp from "./props/Mapcomp"
+import Team from "./props/Team"
+import ComponentA from "./prop-drilling/ComponentA"
 const App = () =>{
   let season = "Rainy season"
   let city = ["Bhopal","Pune", "Chandigarh","Kolkata","Chennai"]
@@ -26,12 +28,15 @@ const App = () =>{
 {/* <CondRendering/> */}
 {/* <Newcomp /> */}
 
-<House house="Red" captain="Sarika" students={140}/>
+{/* <House house="Red" captain="Sarika" students={140}/>
 <House house="Green" students={160}/>
-<House house="Blue" captain="Aditya"/>
+<House house="Blue" captain="Aditya"/> */}
 
- {/* <Mapcomp city={city}/> */}
-    </main>
+  {/* <Mapcomp city={city}/>  */}
+  {/* <Team>CompDept - DEbugging the future, one line at a time!</Team>
+  <Team>ITdept - Thinking Bigger , Acting Better!</Team> */}
+  <ComponentA/>
+  </main>
   );
 };
 
