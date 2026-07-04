@@ -9,6 +9,13 @@ import House from "./props/House"
 import Mapcomp from "./props/Mapcomp"
 import Team from "./props/Team"
 import ComponentA from "./prop-drilling/ComponentA"
+import Inline from "./css-react/Inline"
+import Rainy from "./css-react/Rainy"
+import Winter from "./css-react/Winter"
+import Summer from "./css-react/Summer"
+import "./global.css"
+import Navbar from "./css-react/Navbar"
+import Displayusers from "./css-react/Displayusers"
 const App = () =>{
   let season = "Rainy season"
   let city = ["Bhopal","Pune", "Chandigarh","Kolkata","Chennai"]
@@ -35,7 +42,13 @@ const App = () =>{
   {/* <Mapcomp city={city}/>  */}
   {/* <Team>CompDept - DEbugging the future, one line at a time!</Team>
   <Team>ITdept - Thinking Bigger , Acting Better!</Team> */}
-  <ComponentA/>
+  {/* <ComponentA/> */}
+  {/* <Inline/> */}
+  {/* <Rainy/>
+  <Winter/>
+  <Summer/> */}
+  {/* <Navbar/> */}
+  <Displayusers/>
   </main>
   );
 };
