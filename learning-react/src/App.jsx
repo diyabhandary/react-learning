@@ -33,7 +33,7 @@ const App = () =>{
       <Classcomp/>
       <CompFrag/> */}
 {/* <CondRendering/> */}
-{/* <Newcomp /> */}
+<Newcomp />
 
 {/* <House house="Red" captain="Sarika" students={140}/>
 <House house="Green" students={160}/>
@@ -48,7 +48,7 @@ const App = () =>{
   <Winter/>
   <Summer/> */}
   {/* <Navbar/> */}
-  <Displayusers/>
+  {/* <Displayusers/> */}
   </main>
   );
 };

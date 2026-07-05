@@ -1,7 +1,7 @@
 import Comp1 from "./Comp1"
 import Comp2 from "./Comp2"
-
 import Comp3 from './Comp3'
+import Comp4 from "./Comp4"
 
 const Newcomp = () =>{
 
@@ -20,6 +20,7 @@ const Newcomp = () =>{
     task={null} project={undefined}/>
     <Comp2 colors={colors}/>
     <Comp3 employee={employee}/>
+    <Comp4 productname="Laptop" productprice="50000" productcategory="Electronics"/>
     </>
   )
 }
