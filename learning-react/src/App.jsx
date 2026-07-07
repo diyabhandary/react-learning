@@ -16,6 +16,12 @@ import Summer from "./css-react/Summer"
 import "./global.css"
 import Navbar from "./css-react/Navbar"
 import Displayusers from "./css-react/Displayusers"
+import Firststate from "./state/Firststate"
+import CounterApp from "./state/CounterApp"
+import Context1 from "./context-api/Context1"
+import Context2 from "./context-api/Context2"
+import Company from "./context-api/Company"
+import Employee from "./context-api/Employee"
 const App = () =>{
   let season = "Rainy season"
   let city = ["Bhopal","Pune", "Chandigarh","Kolkata","Chennai"]
@@ -33,7 +39,7 @@ const App = () =>{
       <Classcomp/>
       <CompFrag/> */}
 {/* <CondRendering/> */}
-<Newcomp />
+{/* <Newcomp /> */}
 
 {/* <House house="Red" captain="Sarika" students={140}/>
 <House house="Green" students={160}/>
@@ -49,6 +55,13 @@ const App = () =>{
   <Summer/> */}
   {/* <Navbar/> */}
   {/* <Displayusers/> */}
+  {/* <Firststate/> */}
+  {/* <CounterApp/> */}
+  {/* <Context1/> */}
+  <Context2>
+    <Company/>
+    <Employee/>
+  </Context2>
   </main>
   );
 };
