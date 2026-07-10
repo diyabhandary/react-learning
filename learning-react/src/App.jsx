@@ -22,6 +22,11 @@ import Context1 from "./context-api/Context1"
 import Context2 from "./context-api/Context2"
 import Company from "./context-api/Company"
 import Employee from "./context-api/Employee"
+import Team1 from "./hoc/Team1"
+import Team2 from "./hoc/Team2"
+import Refcomp from "./reference/Refcomp"
+import Controlled from "./forms/Controlled"
+import Details from "./forms/Details"
 const App = () =>{
   let season = "Rainy season"
   let city = ["Bhopal","Pune", "Chandigarh","Kolkata","Chennai"]
@@ -58,10 +63,15 @@ const App = () =>{
   {/* <Firststate/> */}
   {/* <CounterApp/> */}
   {/* <Context1/> */}
-  <Context2>
+  {/* <Context2>
     <Company/>
     <Employee/>
-  </Context2>
+  </Context2> */}
+  {/* <Team1/>
+  <Team2/> */}
+  {/* <Refcomp/> */}
+  {/* <Controlled/> */}
+  <Details/>
   </main>
   );
 };
