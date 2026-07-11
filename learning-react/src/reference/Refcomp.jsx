@@ -15,7 +15,7 @@ const Refcomp = () => {
 
   let changeCss = () =>{
     h2Ref.current.style.color="red"
-    h2Ref.current.style.fontStyle = "italic";
+    h2Ref.current.style.fontStyle = "italic"
     paraRef.current.style.color = "orange"
     paraRef.current.style.textDecoration ="none"
 
@@ -24,7 +24,7 @@ const Refcomp = () => {
   return(
     //2. Pass the ref variable using 'ref' prop.
     <>
-    <h2 ref={h2ref}>Reference is an inbuilt object.</h2>
+    <h2 ref={h2Ref}>Reference is an inbuilt object.</h2>
     <p ref={paraRef}>Lorem ipsum dolor,sit amet consectetur adipisicing elit.
       Repellendus nobis consequatur est sapiente quo unde.</p>
     <button onClick={changeCss}>Change css</button>

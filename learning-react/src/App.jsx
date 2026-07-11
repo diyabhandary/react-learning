@@ -25,8 +25,10 @@ import Employee from "./context-api/Employee"
 import Team1 from "./hoc/Team1"
 import Team2 from "./hoc/Team2"
 import Refcomp from "./reference/Refcomp"
+import Uncontrolled from "./forms/Uncontrolled"
 import Controlled from "./forms/Controlled"
 import Details from "./forms/Details"
+import LifecycleA from "./lifecycle-methods/LifecycleA"
 const App = () =>{
   let season = "Rainy season"
   let city = ["Bhopal","Pune", "Chandigarh","Kolkata","Chennai"]
@@ -68,10 +70,12 @@ const App = () =>{
     <Employee/>
   </Context2> */}
   {/* <Team1/>
-  <Team2/> */}
+  // <Team2/> */}
   {/* <Refcomp/> */}
+  {/* <Uncontrolled\> */}
   {/* <Controlled/> */}
-  <Details/>
+  {/* <Details/> */}
+  <LifecycleA/>
   </main>
   );
 };
