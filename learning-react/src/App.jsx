@@ -29,6 +29,8 @@ import Uncontrolled from "./forms/Uncontrolled"
 import Controlled from "./forms/Controlled"
 import Details from "./forms/Details"
 import LifecycleA from "./lifecycle-methods/LifecycleA"
+import ErrorBoundary from "./error-boundary/Product"
+import Product from "./error-boundary/ErrorBoundary"
 const App = () =>{
   let season = "Rainy season"
   let city = ["Bhopal","Pune", "Chandigarh","Kolkata","Chennai"]
@@ -75,9 +77,13 @@ const App = () =>{
   {/* <Uncontrolled\> */}
   {/* <Controlled/> */}
   {/* <Details/> */}
-  <LifecycleA/>
+  {/* <LifecycleA/> */}
+  <ErrorBoundary>
+    <Product product = "Mobile"/>
+    <Product product = "Laptop"/>
+  </ErrorBoundary>
   </main>
-  );
-};
+  )
+}
 
-export default App;
+export default App
