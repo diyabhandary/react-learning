@@ -1,11 +1,11 @@
-/* .module.css => extension */
+/* .module.css => extension */ 
 
 .heading{
-  color: darkolivegreen;
-  font-size: 30px;
+    color: darkolivegreen;
+    font-size: 30px;
 }
 
 .para{
-  color: rgb(79,105,35);
-  text-decoration: none;
+    color: rgb(79, 105, 35);
+    text-decoration: none;
 }

@@ -1,12 +1,12 @@
 import Hoc from "./Hoc"
 
-const Team2=(props)=> {
-  let {price,incrPrice} = props
+const Team2 = (props) => {
+   let {price , incrPrice} = props 
   return (
     <>
-    <h2>Team2</h2>
-    <h3>Price : Rs. {price} lakh</h3>
-    <button onClick={incrPrice}>Increase price</button>
+        <h2>Team2</h2>         
+        <h3>Price : Rs. {price} lakh</h3>
+        <button onClick={incrPrice}>Increase price</button>
     </>
   )
 }

@@ -1,8 +1,8 @@
-import styles from "./displayusers.module.css";
+import React from 'react'
 
 const Displayusers = () => {
 
-    let userdata = [
+   let userdata = [
     { id: 1, username: "Rahul Sharma", image: "https://i.pravatar.cc/150?img=1" },
     { id: 2, username: "Sneha Patil",  image: "https://i.pravatar.cc/150?img=2" },
     { id: 3, username: "Amit Verma",   image: "https://i.pravatar.cc/150?img=3" },
@@ -23,22 +23,23 @@ const Displayusers = () => {
     { id: 18,username: "Ritu Agarwal", image: "https://i.pravatar.cc/150?img=18" },
     { id: 19,username: "Deepak Choudhary", image: "https://i.pravatar.cc/150?img=19" },
     { id: 20,username: "Nisha Jain", image: "https://i.pravatar.cc/150?img=20" }
-  ] 
+  ]
+
   return (
     <main className="userbox">
-      {
-        userdata.map((value,index)=>{
-          console.log(value); //{id:1, username: 'Rahul Sharma',image: 'https://i.pravatar.cc/150?img=1'}
-          return(
-            <div className="cards" key={value.id}>
-              <h3>{value.username}</h3>
-              <img src={value.image}/>
-
-            </div>//cards
-          )
-        })
-      }
-    </main>//userbox
+        {
+           userdata.map((value,index)=>{
+              console.log(value); //{id: 1, username: 'Rahul Sharma', image: 'https://i.pravatar.cc/150?img=1'}
+                return (
+                    <div className="cards" key={value.id}>
+                        <h3>{value.username}</h3>
+                        <img src={value.image} />
+                    </div>
+                ) 
+           }) 
+        }
+    </main>
   )
 }
+
 export default Displayusers

@@ -1,13 +1,14 @@
 import {useContext} from 'react'
-import {Newcontext} from './Context1';
+import { Newcontext } from './Context1';
 
-const Customer = () =>{
-  let data = useContext(Newcontext)
+const Customer = () => { 
 
-  console.log(data); //I have come from context
+    let data = useContext(Newcontext)
 
+    console.log(data); //I have come from context
+    
 
-  return(
+  return (
     <div>Customer - {data}</div>
   )
 }

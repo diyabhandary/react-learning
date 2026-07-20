@@ -1,16 +1,18 @@
-import { createContext } from "react";
+import { createContext } from "react"
 
-export const contextApi = createContext();
 
-const Context2 = ({ children }) => {
-  const company = "Godrej";
-  const employees = 250;
+export let ContextApi = createContext()
+
+const Context2 = (props) => {
+
+      let company = "Godrej"
+      let employees = 250
 
   return (
-    <contextApi.Provider value={{ company, employees }}>
-      {children}
-    </contextApi.Provider>
-  );
-};
+    <ContextApi.Provider value={{company , employees}}>
+           {props.children}  
+    </ContextApi.Provider>
+  )
+}
 
-export default Context2;
+export default Context2

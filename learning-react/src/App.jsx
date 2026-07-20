@@ -30,7 +30,11 @@ import Controlled from "./forms/Controlled"
 import Details from "./forms/Details"
 import LifecycleA from "./lifecycle-methods/LifecycleA"
 import ErrorBoundary from "./error-boundary/Product"
-import Product from "./error-boundary/ErrorBoundary"
+import Product from "./error-boundary/Product"
+import Portal from "./portals/Portal"
+import Parent from "./childToParent/Parent"
+import SideEffect from "./fetchdata/SideEffect"
+import TodoList from "./task/TodoList"
 const App = () =>{
   let season = "Rainy season"
   let city = ["Bhopal","Pune", "Chandigarh","Kolkata","Chennai"]
@@ -78,10 +82,20 @@ const App = () =>{
   {/* <Controlled/> */}
   {/* <Details/> */}
   {/* <LifecycleA/> */}
-  <ErrorBoundary>
+  {/* <ErrorBoundary>
     <Product product = "Mobile"/>
     <Product product = "Laptop"/>
-  </ErrorBoundary>
+  </ErrorBoundary> */}
+  {/* <Portal/> */}
+  {/* <Parent/> */}
+  {/* <SideEffect/> */}
+  {/* <Fetchuser/> */}
+  {/* <Fetchproducts/> */}
+  {/* <Users/> */}
+  {/* <Parentuplift/> */}
+  {/* <Parentcomp/> */}
+  {/* <Memocomp/> */}
+  <TodoList/>
   </main>
   )
 }

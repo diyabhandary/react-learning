@@ -1,41 +1,40 @@
 h2{
-  color:darkorchid;
-  text-transform: capitalize;
+    color: darkorchid;
+    text-transform: capitalize;
 }
 
 p{
-  color: rgb(66, 14, 92);
-  text-decoration: underline;
-}
-
+    color: rgb(66, 14, 92);
+    text-decoration: underline;
+} 
 *{
-  box-sizing:border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar{
-  background-color:deepskyblue;
-  height: 8vh;
-  color: aliceblue;
-  display: flex;
-  align-items: center;
-  gap: 60%;
+    background-color: deepskyblue;
+    height: 8vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 65%;
 }
 
 .logo{
-  font-size: 20px;
-  margin: 10px;
+    font-size: 20px;
+    margin: 10px;
 }
 
 .menu ul{
-  display: flex;
-  gap:25%;
-  font-size: 18px;
-  list-style: none;
-  text-decoration: underline;
+    display: flex;
+    gap: 25%;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: underline;
 }
 
 .menu ul li:hover{
-  color: rgb(2,25,46);
-} 
+    color: rgb(2, 25, 46);
+}

@@ -1,17 +1,22 @@
-import { useContext } from "react";
-import { contextApi } from "./Context2";
+import {useContext} from 'react'
+import { ContextApi } from './Context2'
 
 const Employee = () => {
-  const data = useContext(contextApi);
-  const { company, employees } = data;
+
+    let data = useContext(ContextApi)
+
+    console.log(data); //{company: "Godrej", employees: 250}
+
+    let {company, employees} = data 
+    
 
   return (
     <>
-      <h2>Employee</h2>
-      <h3>Company Name: {company}</h3>
-      <h3>No. of Employees: {employees}</h3>
-    </>
-  );
-};
+        <h2>Employee</h2>
+        <h3>Company Name : {company}</h3>
+        <h3>No of employees : {employees}</h3>
+    </> 
+  )
+}
 
-export default Employee;
+export default Employee

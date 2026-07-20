@@ -3,7 +3,7 @@ const Anonymous = () => {
     <>
       <h2>Check your credentials.</h2>
     </>
-  );
-};
+  )
+}
 
-export default Anonymous;
+export default Anonymous

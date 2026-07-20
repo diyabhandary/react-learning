@@ -1,12 +1,14 @@
 const Team = (props)=>{
 
-  console.log(props); //{children:'CompDept - Debugging the future, one line at a time!'}
+    console.log(props); //{children: 'CompDept - Debugging the future, one line at a time!'}
+     
+    let {children} = props 
 
-  let {children}=props;
-  return (
-    <>
-    {/* <h2>{props.children}</h2> */}
-    </>
-  )
+    return (
+        <>
+        {/* <h2>{props.children}</h2> */}
+        <h2>{children}</h2>
+        </>
+    )
 }
-  export default Team
+export default Team 

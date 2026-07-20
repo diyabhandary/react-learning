@@ -1,8 +1,13 @@
 import React from 'react'
 
-const ComponentC = () => {
+const ComponentC = (props) => {
+    console.log(props); //{data: 'Guitar'}
+    let {data} = props
+    
   return (
-    <div>ComponentC</div>
+    <>
+        <h2>ComponentC has recieved the {data}.</h2>
+    </>
   )
 }
 
