@@ -35,6 +35,8 @@ import Portal from "./portals/Portal"
 import Parent from "./childToParent/Parent"
 import SideEffect from "./fetchdata/SideEffect"
 import TodoList from "./task/TodoList"
+import Counter from "./reducer/Counter"
+import Routingv5 from "./rounting-v5/Routingv5"
 const App = () =>{
   let season = "Rainy season"
   let city = ["Bhopal","Pune", "Chandigarh","Kolkata","Chennai"]
@@ -95,7 +97,9 @@ const App = () =>{
   {/* <Parentuplift/> */}
   {/* <Parentcomp/> */}
   {/* <Memocomp/> */}
-  <TodoList/>
+  {/* <TodoList/> */}
+  {/* <Counter/> */}
+  <Routingv5/>
   </main>
   )
 }
