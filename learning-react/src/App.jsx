@@ -37,6 +37,7 @@ import SideEffect from "./fetchdata/SideEffect"
 import TodoList from "./task/TodoList"
 import Counter from "./reducer/Counter"
 import Routingv5 from "./rounting-v5/Routingv5"
+import Routingv6 from "./routing-v6/Routingv6"
 const App = () =>{
   let season = "Rainy season"
   let city = ["Bhopal","Pune", "Chandigarh","Kolkata","Chennai"]
@@ -99,7 +100,8 @@ const App = () =>{
   {/* <Memocomp/> */}
   {/* <TodoList/> */}
   {/* <Counter/> */}
-  <Routingv5/>
+  {/* <Routingv5/> */}
+  <Routingv6/>
   </main>
   )
 }
