@@ -1,0 +1,15 @@
+{
+  "employees" : [
+    {
+      "fname" : "Ayushi",
+      "email" : "ayushi@gmail.com",
+      "id": "1"
+    },
+    {
+      "fname" : "Geetha",
+      "email" : "geetha2gmail.com",
+      "id" : "2"
+
+    }
+  ]
+}
