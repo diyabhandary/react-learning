@@ -1,8 +1,10 @@
 import { Link , Outlet} from "react-router-dom"
+import { Toaster } from "react-hot-toast";
 
 const Layout = () => {
   return (
    <>
+   <Toaster/>
    <h2>CRUD OPERATION</h2>
    <ul>
    <li>

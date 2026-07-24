@@ -18,7 +18,7 @@ const App = () =>{
           element : <Createuser/>
         },
         {
-          path : "/edituser",
+          path : "/edituser/:id",
           element : <Edituser/>
         },
         {

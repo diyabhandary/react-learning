@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import axios from 'axios'
-import {MdOutlineModeEdit} from 'react-icons/md';
-import {MdOutlineDelete} from 'react-icons/md';
+import { Link } from "react-router-dom";
+import axios from "axios";
+import { MdOutlineModeEdit, MdOutlineDelete } from "react-icons/md";
 
 //npm i axios
 //npm i react-icons
@@ -40,7 +40,7 @@ const Users = () => {
               <tr key={value.id}>
                 <td>{value.fname}</td>
                 <td>{value.email}</td>
-                <td><MdOutlineModeEdit /></td>
+                <td><Link to={`/edituser/${value.id}`}><MdOutlineModeEdit /></Link></td>
                 <td><MdOutlineDelete /></td>
               </tr>
             )
